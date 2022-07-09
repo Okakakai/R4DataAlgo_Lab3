@@ -12,10 +12,10 @@ class ttTree
 {
 public:
     ttTree();
-    void printTree(ostream &out = cout);
-    void contains();
+    void printTree(ostream &out);
+    bool contains(int target);
     void buildTree(ifstream &input);
-    void timeTaken();
+    bool deleteNode(int target);
 
 private:
     struct node
@@ -25,20 +25,22 @@ private:
         node *right;
         int leftKey;
         int rightKey;
-        vector<int> leftLines;
-        vector<int> rightLines;
     };
     node *root;
-    vector<int> evenNumbers;
+    vector<int> line;
     node *createNode(const int x, node *left, node *middle, node *right);
     bool isLeafNode(node *x);
-    node *add(node *x, node *n);
-    node *insert(const int &key, int line, node *root, int &distWord);
-    bool searchTreeHelper(node *x, string value, vector<int> &lines);
-    void printLines(node *x, bool isLeft, ostream &out);
-    void print(node *x, ostream &out);
+    node *add(node *x, node *newNode);
+    node *insert(const int &key, node *root);
+    void print(node *node, ostream &out);
+    bool searchTreeHelper(node *x, int value);
     void printTreeHelper(node *x, ostream &out);
-    int findHeight(node *x);
+    bool deleteHelper(node *x, int target);
+    bool deleteLeft(node *x);
+    bool deleteRight(node *x);
+    bool deleteMid(node *x);
+    void moveLeft(node *x);
+    void moveRight(node *x,node *left, int Key);
 };
 
 #endif
