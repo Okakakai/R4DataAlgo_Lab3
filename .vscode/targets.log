@@ -1,0 +1,416 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# ����̓t���[�\�t�g�E�F�A�ł�. ���p�����ɂ��Ă̓\�[�X��
+# ������������.
+# ���Ɛ������̖ړI�ւ̓K�����̔@���Ɋւ�炸, ���ۏ؂ł�.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make �f�[�^�x�[�X�o�� Sat Jul 09 16:17:57 2022
+
+# �ϐ�
+
+# �����ϐ�
+<D = $(patsubst %/,%,$(dir $<))
+# �����ϐ�
+?F = $(notdir $?)
+# ���ϐ�
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile �ϐ�
+MAKEFLAGS = Rrqp
+# ���ϐ�
+LC_CTYPE = ja_JP.UTF-8@cjknarrow
+# �����ϐ�
+?D = $(patsubst %/,%,$(dir $?))
+# �����ϐ�
+@D = $(patsubst %/,%,$(dir $@))
+# ���ϐ�
+HOMEDRIVE = C:
+# �����ϐ�
+@F = $(notdir $@)
+# �����ϐ�
+^D = $(patsubst %/,%,$(dir $^))
+# makefile �ϐ�
+CURDIR := c:/Users/rysya/codefolder/DataAlgo/reLab3/R4DataAlgo_Lab3
+# makefile �ϐ�
+SHELL = C:/Program Files/Git/usr/bin/sh.exe
+# ���ϐ�
+CONFIG_SITE = C:/Program Files/Git/etc/config.site
+# ���ϐ�
+WINDIR = C:\Windows
+# ���ϐ�
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"96f3e8db934f372e4b51ec41decd7891.ja","_translationsConfigFile":"C:\\Users\\rysya\\AppData\\Roaming\\Code\\clp\\96f3e8db934f372e4b51ec41decd7891.ja\\tcf.json","_cacheRoot":"C:\\Users\\rysya\\AppData\\Roaming\\Code\\clp\\96f3e8db934f372e4b51ec41decd7891.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\rysya\\AppData\\Roaming\\Code\\clp\\96f3e8db934f372e4b51ec41decd7891.ja\\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"C:\\Users\\rysya\\AppData\\Roaming\\Code\\clp\\96f3e8db934f372e4b51ec41decd7891.ja\\corrupted.info","_languagePackSupport":true}
+# ���ϐ�
+_ = C:/Users/rysya/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# makefile �ϐ� (`makefile', 3 �s�ڂ���)
+CFLAGS = -ggdb -std=c++17
+# ���ϐ�
+ONEDRIVE = C:\Users\rysya\OneDrive - �Ɨ��s���@�l �����������w�Z�@�\
+# makefile �ϐ� (`makefile', 4 �s�ڂ���)
+objects = ttTree.o bst.o main.o
+# ���ϐ�
+QSYS_ROOTDIR = C:\intelFPGA_lite\20.1\quartus\sopc_builder\bin
+# ���ϐ�
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile �ϐ� (`makefile', 1 �s�ڂ���)
+MAKEFILE_LIST :=  makefile
+# ���ϐ�
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# ���ϐ�
+TMP = C:\Users\rysya\AppData\Local\Temp
+# ���ϐ�
+PROGRAMW6432 = C:\Program Files
+# ���ϐ�
+INFOPATH = C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info
+# ���ϐ�
+PROGRAMDATA = C:\ProgramData
+# ���ϐ�
+MSYSTEM_CHOST = x86_64-w64-mingw32
+# ���ϐ�
+VSCODE_CWD = C:\Users\rysya\codefolder\DataAlgo\reLab3\R4DataAlgo_Lab3
+# ���ϐ�
+PATH = C:\Users\rysya\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rysya\bin;C:\Windows\system32\config\systemprofile\.pyenv\pyenv-win\bin;C:\Windows\system32\config\systemprofile\.pyenv\pyenv-win\shims;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\PROGRA~1\JPKI;C:\Program Files\PuTTY;C:\Program Files\swipl\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\rysya\.pyenv\pyenv-win\bin;C:\Users\rysya\.pyenv\pyenv-win\shims;C:\Users\rysya\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\rysya\AppData\Local\Programs\Python\Python310;C:\Users\rysya\AppData\Local\Microsoft\WindowsApps;C:\Users\rysya\AppData\Local\Programs\Microsoft VS Code\bin;C:\sqlite3;C:\Users\rysya\AppData\Roaming\npm;C:\Users\rysya\go\bin;C:\xampp\perl\bin;C:\Users\rysya\AppData\Local\Keybase;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+# ���ϐ�
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ���ϐ�
+TERM_PROGRAM_VERSION = 3.5.2
+# ���ϐ�
+PROCESSOR_ARCHITECTURE = x86
+# ���ϐ�
+USERPROFILE = C:\Users\rysya
+# ���ϐ�
+MSYSTEM_CARCH = x86_64
+# ���ϐ�
+EXEPATH = C:\Program Files\Git
+# ���ϐ�
+ALLUSERSPROFILE = C:\ProgramData
+# ���ϐ�
+GOPATH = C:\Users\rysya\go
+# ���ϐ�
+PLINK_PROTOCOL = ssh
+# ���ϐ�
+SOPC_KIT_NIOS2 = C:\intelFPGA_lite\20.1\nios2eds
+# ���ϐ�
+MSYSTEM_PREFIX = C:/Program Files/Git/mingw64
+# ���ϐ�
+NUMBER_OF_PROCESSORS = 12
+# ���ϐ�
+ELECTRON_RUN_AS_NODE = 1
+# ���ϐ�
+ORIGINAL_TEMP = C:/Users/rysya/AppData/Local/Temp
+# �f�t�H���g
+.FEATURES := target-specific order-only second-expansion else-if archives
+# �����ϐ�
+%F = $(notdir $%)
+# ���ϐ�
+DISPLAY = needs-to-be-defined
+# ���ϐ�
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_32124_PQQIFSLTIANOSPCK
+# ���ϐ�
+ORIGINAL_PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rysya\bin;C:\Windows\system32\config\systemprofile\.pyenv\pyenv-win\bin;C:\Windows\system32\config\systemprofile\.pyenv\pyenv-win\shims;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\Go\bin;C:\PROGRA~1\JPKI;C:\Program Files\PuTTY;C:\Program Files\swipl\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\rysya\.pyenv\pyenv-win\bin;C:\Users\rysya\.pyenv\pyenv-win\shims;C:\Users\rysya\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\rysya\AppData\Local\Programs\Python\Python310;C:\Users\rysya\AppData\Local\Microsoft\WindowsApps;C:\Users\rysya\AppData\Local\Programs\Microsoft VS Code\bin;C:\sqlite3;C:\Users\rysya\AppData\Roaming\npm;C:\Users\rysya\go\bin;C:\xampp\perl\bin;C:\Users\rysya\AppData\Local\Keybase;C:\Program Files (x86)\GnuWin32\bin
+# ���ϐ�
+COMPUTERNAME = DESKTOP-4COM3O1
+# ���ϐ�
+PWD = C:/Users/rysya/codefolder/DataAlgo/reLab3/R4DataAlgo_Lab3
+# ���ϐ�
+PROGRAMFILES = C:\Program Files (x86)
+# ���ϐ�
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ���ϐ�
+PKG_CONFIG_PATH = C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+# ���ϐ�
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ���ϐ�
+USERNAME = rysya
+# ���ϐ�
+PUBLIC = C:\Users\Public
+# ���ϐ�
+MANPATH = C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man
+# ���ϐ�
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ���ϐ�
+HOME = C:\Users\rysya
+# ���ϐ�
+VSCODE_CLI = 1
+# ���ϐ�
+VSCODE_CODE_CACHE_PATH = C:\Users\rysya\AppData\Roaming\Code\CachedData\92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# ���ϐ�
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# ���ϐ�
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ���ϐ�
+LOGONSERVER = \\DESKTOP-4COM3O1
+# ���ϐ�
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ���ϐ�
+USERDOMAIN = DESKTOP-4COM3O1
+# ���ϐ�
+HOSTNAME = DESKTOP-4COM3O1
+# ���ϐ�
+SSH_ASKPASS = C:/Program Files/Git/mingw64/bin/git-askpass.exe
+# �f�t�H���g
+MAKE = $(MAKE_COMMAND)
+# �f�t�H���g
+MAKECMDGOALS := all
+# ���ϐ�
+SHLVL = 2
+# ���ϐ�
+ACLOCAL_PATH = C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal
+# ���ϐ�
+ONEDRIVECOMMERCIAL = C:\Users\rysya\OneDrive - �Ɨ��s���@�l �����������w�Z�@�\
+# �f�t�H���g
+MAKE_VERSION := 3.81
+# ���ϐ�
+MINGW_CHOST = x86_64-w64-mingw32
+# makefile �ϐ�
+.DEFAULT_GOAL := main.out
+# ���ϐ�
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �����ϐ�
+%D = $(patsubst %/,%,$(dir $%))
+# ���ϐ�
+LOCALAPPDATA = C:\Users\rysya\AppData\Local
+# ���ϐ�
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# �f�t�H���g
+MAKE_COMMAND := make.exe
+# ���ϐ�
+PROCESSOR_ARCHITEW6432 = AMD64
+# ���ϐ�
+OLDPWD = C:/Users/rysya/codefolder/DataAlgo/reLab3
+# ���ϐ�
+TERM_PROGRAM = mintty
+# �f�t�H���g
+.VARIABLES := 
+# ���ϐ�
+TMPDIR = C:\Users\rysya\AppData\Local\Temp
+# �����ϐ�
+*F = $(notdir $*)
+# ���ϐ�
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD
+# ���ϐ�
+OS = Windows_NT
+# ���ϐ�
+VSCODE_IPC_HOOK = \\.\pipe\736c070fad15813265dfb6be2b505684-1.69.0-main-sock
+# ���ϐ�
+HOMEPATH = \Users\rysya
+# ���ϐ�
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ���ϐ�
+PROMPT = $P$G
+# ���ϐ�
+MFLAGS = -Rrqp
+# �����ϐ�
+*D = $(patsubst %/,%,$(dir $*))
+# ���ϐ�
+ORIGINAL_TMP = C:/Users/rysya/AppData/Local/Temp
+# ���ϐ�
+SYSTEMROOT = C:\Windows
+# �����ϐ�
++D = $(patsubst %/,%,$(dir $+))
+# ���ϐ�
+MINGW_PREFIX = C:/Program Files/Git/mingw64
+# �����ϐ�
++F = $(notdir $+)
+# ���ϐ�
+APPDATA = C:\Users\rysya\AppData\Roaming
+# ���ϐ�
+TEMP = C:\Users\rysya\AppData\Local\Temp
+# ���ϐ�
+COMSPEC = C:\Windows\system32\cmd.exe
+# ���ϐ�
+MSYSTEM = MINGW64
+# �f�t�H���g
+MAKEFILES := 
+# ���ϐ�
+QUARTUS_ROOTDIR = C:\intelFPGA_lite\20.1\quartus
+# �����ϐ�
+<F = $(notdir $<)
+# ���ϐ�
+LC_ALL = C
+# �����ϐ�
+^F = $(notdir $^)
+# �f�t�H���g
+SUFFIXES := 
+# ���ϐ�
+SYSTEMDRIVE = C:
+# ���ϐ�
+SESSIONNAME = Console
+# ���ϐ�
+PROCESSOR_REVISION = 6801
+# ���ϐ�
+MAKELEVEL := 0
+# ���ϐ�
+LANG = C
+# ���ϐ�
+PROCESSOR_LEVEL = 23
+# ���ϐ�
+TERM = xterm
+# ���ϐ�
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# ���ϐ�
+VSCODE_PID = 32124
+# ���ϐ�
+MINGW_PACKAGE_PREFIX = mingw-w64-x86_64
+# ���ϐ�
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-4COM3O1
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=122/1024=12%, Rehash=0, Collisions=10/143=7%
+
+# Pattern-specific Variable Values
+
+# �p�^�[���w��ϐ��̒l�Ȃ�.
+
+# �f�B���N�g��
+
+# . (key c:/Users/rysya/codefolder/DataAlgo/reLab3/R4DataAlgo_Lab3, mtime 1657351076): 8 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Git\mingw64\bin (key C:/Program Files/Git/mingw64/bin, mtime 1638610644): 109 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1638610644): 314 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (�����܂ł�).
+# C:\Users\rysya\bin: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\Git\usr\local\bin: ��Ԃ𒲂ׂ��܂���ł���.
+
+# 431 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (5 �̃f�B���N�g����).
+
+# �Öك��[��
+
+%.o:
+
+%.cpp:
+
+%.o: %.cpp
+#  ���s����R�}���h (`makefile', 10 �s�ڂ���):
+	g++ $(CFLAGS) -c $< -o $@
+	
+
+%.x:
+
+# 4 �̈Öك��[��, 0 (0.0%) �ȏ�.
+
+# �t�@�C��
+
+# �^�[�Q�b�g�ł͂���܂���:
+all:
+#  �R�}���h���C���^�[�Q�b�g.
+#  �Öك��[���̒T�����s���܂���.
+#  �t�@�C�������݂��܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �^�[�Q�b�g�ł͂���܂���:
+.o:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+main.out: ttTree.o bst.o main.o
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 7 �s�ڂ���):
+	g++ $(CFLAGS) -o main.out $(objects)
+	
+
+# �^�[�Q�b�g�ł͂���܂���:
+.DEFAULT:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+makefile:
+#  �Öك��[���̒T�����s���܂���.
+#  �ŏI�C�� 2022-07-04 14:27:24
+#  �t�@�C���͍X�V����Ă��܂�.
+#  �X�V�ɐ������܂���.
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �^�[�Q�b�g�ł͂���܂���:
+main.cpp:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+ttTree.h:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+ttTree.cpp:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+.SUFFIXES: .o .cpp .x
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+.x:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+bst.o:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+.cpp.o:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 10 �s�ڂ���):
+	g++ $(CFLAGS) -c $< -o $@
+	
+
+# �^�[�Q�b�g�ł͂���܂���:
+.cpp:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+clean:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 19 �s�ڂ���):
+	rm -fr *.o *~ *.x
+	
+
+main.o: main.cpp ttTree.h
+#  �Öك��[���̒ 
+make.exe: *** �^�[�Q�b�g `all' �� make ���郋�[��������܂���.  ���~.
+
+T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+ttTree.o: ttTree.cpp ttTree.h
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �t�@�C���n�b�V���e�[�u���̏��:
+# Load=16/1024=2%, Rehash=0, Collisions=2/44=5%
+# VPATH �T���p�X
+
+# `vpath' �T���p�X�͂���܂���
+
+# ��ʂ� (`VPATH' �ϐ�) �T���p�X�Ȃ�.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Make �f�[�^�x�[�X�I�� Sat Jul 09 16:17:57 2022
+
+ 

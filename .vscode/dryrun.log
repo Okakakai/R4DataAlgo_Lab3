@@ -1,0 +1,8 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: �f�B���N�g�� `c:/Users/rysya/codefolder/DataAlgo/reLab3/R4DataAlgo_Lab3' �ɓ���܂�
+g++ -ggdb -std=c++17 -c main.cpp -o main.o
+make.exe: �f�B���N�g�� `c:/Users/rysya/codefolder/DataAlgo/reLab3/R4DataAlgo_Lab3' ����o�܂�
+ 
+make.exe: *** `ttTree.o' �ɕK�v�ȃ^�[�Q�b�g `ttTree.cpp' �� make ���郋�[��������܂���.
+make.exe: *** `main.out' �ɕK�v�ȃ^�[�Q�b�g `bst.o' �� make ���郋�[��������܂���.
+
