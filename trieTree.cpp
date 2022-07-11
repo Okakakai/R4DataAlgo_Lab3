@@ -94,35 +94,36 @@ bool trieTree::search(string key)
     return (x->isEndOfWord);
 }
 
-void trieTree::printTree()
-{
-    printHelper(root);
-}
+// void trieTree::printTree()
+// {
+//     printHelper(root);
+// }
 
-void trieTree::printHelper(node *x)
-{
-    char arphabet = 'a';
-    if (x->isEndOfWord)
-    {
-        for (int i = 0; i < ALPHABET_SIZE; i++)
-        {
-            if (x->children[i])
-            {
-                char output = arphabet + i;
-                cout << output << endl;
-            }
-        }
-    }
-    for (int i = 0; i < ALPHABET_SIZE; i++)
-    {
-        if (!x->isEndOfWord)
-        {
-            printHelper(x->children[i]);
-            char output = arphabet + i;
-            cout << output << endl;
-        }
-    }
-}
+// void trieTree::printHelper(node *x)
+// {
+//     char arphabet = 'a';
+//     if (x->isEndOfWord)
+//     {
+//         for (int j = 0; j < ALPHABET_SIZE; j++)
+//         {
+//             if (root->children[j])
+//             {
+//                 char temp = arphabet + j;
+//                 cout << temp << endl;
+//             }
+//             cout << endl;
+//         }
+//     }
+//     if (!x->isEndOfWord)
+//     {
+//         for (int i = 0; i < ALPHABET_SIZE; i++)
+//         {
+//             printHelper(x->children[i]);
+//             char temp = arphabet + i;
+//             cout << temp << endl;
+//         }
+//     }
+// }
 
 bool trieTree::isLeafNode(node *node)
 {

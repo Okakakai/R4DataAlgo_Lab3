@@ -16,7 +16,7 @@ public:
     trieTree();
     void buildTree();
     void contains(string key);
-    void printTree();
+    // void printTree();
 
 private:
     struct node
@@ -29,7 +29,7 @@ private:
     bool search(string key);
     void insert(string key);
     bool deleteNode(node *x, string key);
-    void printHelper(node *x);
+    // void printHelper(node *x);
     bool isLeafNode(node *node);
 };
 
