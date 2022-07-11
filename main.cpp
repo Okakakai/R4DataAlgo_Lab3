@@ -38,15 +38,15 @@ int main(int argc, char *argv[])
             while (1)
             {
                 choice = 0;
-                cout << "Options: (a) ----, (b) search, (c) delete (d) quit\n";
+                cout << "Options: (a) display index, (b) search, (c) delete (d) quit\n";
                 cin >> choice;
 
                 // Print index
-                // if (choice == 'a')
-                //     myTree.printTree(cout);
+                if (choice == 'a')
+                    myTree.printTree(cout);
 
                 // Search index
-                if (choice == 'b')
+                else if (choice == 'b')
                 {
                     myTree.contains(10);
                     myTree.contains(19);
@@ -73,16 +73,16 @@ int main(int argc, char *argv[])
             while (1)
             {
                 choice = 0;
-                cout << "Options: (a) display index, (b) search, (c) delete (d) quit\n";
+                cout << "Options: (a) ----, (b) search, (c) delete (d) quit\n";
                 cin >> choice;
 
                 // Print index
-                if (choice == 'a')
-                {
-                    trieTree.printTree();
-                }
+                // if (choice == 'a')
+                // {
+                //     trieTree.printTree();
+                // }
                 // Search index
-                else if (choice == 'b')
+                if (choice == 'b')
                 {
                     string word1, word2, word3;
                     word1 = "card";
@@ -102,8 +102,7 @@ int main(int argc, char *argv[])
                 }
 
                 // Quit
-                else
-                    break;
+                else break;
             }
         }
     }
