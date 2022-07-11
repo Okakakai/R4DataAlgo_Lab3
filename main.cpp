@@ -75,13 +75,6 @@ int main(int argc, char *argv[])
                 choice = 0;
                 cout << "Options: (a) ----, (b) search, (c) delete (d) quit\n";
                 cin >> choice;
-
-                // Print index
-                // if (choice == 'a')
-                // {
-                //     trieTree.printTree();
-                // }
-                // Search index
                 if (choice == 'b')
                 {
                     string word1, word2, word3;
@@ -96,13 +89,53 @@ int main(int argc, char *argv[])
                 // delete
                 else if (choice == 'c')
                 {
-                    int target;
-                    cout << "Delete Num : ";
-                    cin >> target;
+                    // string target;
+                    // cout << "Delete Num : ";
+                    // cin >> target;
+                    // cout << "....SEARCHING..." << endl;
+                    // bool ok = trieTree.contains(target);
+                    // if (ok)
+                    // {
+                    //     trieTree.deleteNode(target);
+                    // }
+                    // cout << "Would you Seach word that you want to find? \n === y or n\n";
+                    // int select;
+                    // cin >> select;
+                    // if (select == 'y')
+                    // {
+                    //     string word;
+                    //     cout << "Search Num : ";
+                    //     cin >> word;
+                    //     trieTree.contains(word);
+                    // }
+                    string word1, word2, word3, word4, word5;
+                    word1 = "tried";
+                    word2 = "cat";
+                    word3 = "try";
+                    word4 = "car";
+                    word5 = "card";
+                    cout << "====check====" << endl;
+                    trieTree.contains(word1);
+                    trieTree.contains(word2);
+                    trieTree.contains(word3);
+                    trieTree.contains(word4);
+                    trieTree.contains(word5);
+                    cout << "====delete====" << endl;
+                    trieTree.deleteNode(word1);
+                    trieTree.contains(word1);
+                    trieTree.deleteNode(word2);
+                    trieTree.contains(word2);
+                    trieTree.deleteNode(word3);
+                    trieTree.contains(word3);
+                    trieTree.deleteNode(word4);
+                    trieTree.contains(word4);
+                    trieTree.deleteNode(word5);
+                    trieTree.contains(word5);
                 }
 
                 // Quit
-                else break;
+                else
+                    break;
             }
         }
     }
