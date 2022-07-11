@@ -15,8 +15,9 @@ class trieTree
 public:
     trieTree();
     void buildTree();
-    void contains(string key);
-    // void printTree();
+    bool contains(string key);
+    void printTree();
+    bool deleteNode(string key);
 
 private:
     struct node
@@ -24,13 +25,15 @@ private:
         node *children[ALPHABET_SIZE];
         bool isEndOfWord;
     };
+
     node *root;
     node *createNode();
     bool search(string key);
     void insert(string key);
-    bool deleteNode(node *x, string key);
-    // void printHelper(node *x);
+    void printHelper(node *x);
     bool isLeafNode(node *node);
+    bool isOneChild(node *x);
+    bool deleteHelper(node *x, string target, int i);
 };
 
 #endif
