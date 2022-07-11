@@ -38,15 +38,15 @@ int main(int argc, char *argv[])
             while (1)
             {
                 choice = 0;
-                cout << "Options: (a) display index, (b) search, (c) delete (d) quit\n";
+                cout << "Options: (a) ----, (b) search, (c) delete (d) quit\n";
                 cin >> choice;
 
                 // Print index
-                if (choice == 'a')
-                    myTree.printTree(cout);
+                // if (choice == 'a')
+                //     myTree.printTree(cout);
 
                 // Search index
-                else if (choice == 'b')
+                if (choice == 'b')
                 {
                     myTree.contains(10);
                     myTree.contains(19);
